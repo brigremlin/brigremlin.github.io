@@ -367,6 +367,30 @@ footer {
   position: relative;
   align-items: end;
 }
+.attraction-link {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+/* ATTRACTION POSTS */
+.attraction-container img {
+  max-height: 400px;
+  border-radius: 10px;
+}
+.attraction-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.attraction-container p {
+  width: 75%;
+}
 
 /* TOUR */
 .tours-container .col-md-4.col-sm-12:first-child {
@@ -569,5 +593,8 @@ footer {
   }
   .dining-row .cuisine-box {
     margin-top: 1rem;
+  }
+  .attraction-container img {
+    max-height: 250px;
   }
 }
