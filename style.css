@@ -14,6 +14,10 @@ img.logo {
   max-width: 350px;
 }
 
+span {
+  color: rgb(154, 247, 154);
+}
+
 /* TOP BAR */
 .top-bar {
   display: flex;
@@ -398,7 +402,7 @@ footer {
 
 /* TOUR */
 .tours-container .col-md-4.col-sm-12:first-child {
-  background-image: url("images/pexels-ahmad-zakaria-4767407.jpg");
+  background-image: url("images/pexels-archie-binamira-913215.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -410,7 +414,7 @@ footer {
   margin: 1rem 1rem;
 }
 .tours-container .col-md-4.col-sm-12:nth-child(2) {
-  background-image: url("images/pexels-archie-binamira-913215.jpg");
+  background-image: url("images/pexels-ahmad-zakaria-4767407.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
