@@ -32,6 +32,10 @@ img.logo {
 }
 
 /* NAVIGATION */
+.btn-outline-success {
+  border-color: white;
+  color: white;
+}
 li.nav-item a {
   color: white !important;
 }
